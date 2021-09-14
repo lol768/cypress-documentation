@@ -92,7 +92,7 @@ Cypress.config('pageLoadTimeout') // => 60000
 
 ### Name and Value
 
-#### Change the values of configuration options from configuration file (`cypress.json` by default) from within your tests
+#### Change the values of configuration options from configuration file from within your tests
 
 <Alert type="warning">
 
@@ -118,7 +118,7 @@ Cypress.config('viewportWidth') // => 800
 
 ### Object
 
-#### Override multiple options from configuration file (`cypress.json` by default) by passing an object literal
+#### Override multiple options from configuration file by passing an object literal
 
 ```json
 {

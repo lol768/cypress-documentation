@@ -163,9 +163,8 @@ If it's your first time using Cypress, check out the
 </alert>
 
 Once installed, you need to configure how Cypress will locate component spec
-files. In the following configuration file (`cypress.json` by default), all
-components test files contained within the `src` directory and match the glob
-given in the `testFiles` key.
+files. In the following configuration file, all components test files contained
+within the `src` directory and match the glob given in the `testFiles` key.
 
 ```json
 {

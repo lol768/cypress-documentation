@@ -235,7 +235,7 @@ default):
 }
 ```
 
-E2E specific timeouts in configuration file (`cypress.json` by default):
+E2E specific timeouts in configuration file:
 
 ```json
 {
@@ -289,7 +289,7 @@ working locally. This gives you the ability to change configuration options
 without modifying any code or build scripts.
 
 By default, any environment variable that matches a corresponding configuration
-key will override the configuration file (`cypress.json` by default) value.
+key will override the configuration file value.
 
 ```shell
 export CYPRESS_VIEWPORT_WIDTH=800
