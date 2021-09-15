@@ -2,9 +2,9 @@
 title: Configuration
 ---
 
-## cypress.json
+## configuration file
 
-The first time you open Cypress Test Runner, it creates the `cypress.json`
+The first time you open Cypress Test Runner, it creates the configuration file
 configuration file. This JSON file is used to store any configuration values you
 supply. If you
 [configure your tests to record](/guides/dashboard/projects#Setup) the results
@@ -221,8 +221,7 @@ You can override configuration for either the E2E or
 
 #### Examples
 
-Component Testing specific viewports in configuration file (`cypress.json` by
-default):
+Component Testing specific viewports in configuration file:
 
 ```json
 {
@@ -727,7 +726,7 @@ DEBUG=cypress:cli,cypress:server:specs
   [Cypress.env()](/api/cypress-api/env)
 - [Environment variables](/guides/guides/environment-variables)
 - [Environment Variables recipe](/examples/examples/recipes#Fundamentals)
-- [Extending the Cypress Config File](https://www.cypress.io/blog/2020/06/18/extending-the-cypress-config-file/)
+- [Extending the Cypress Configuration File](https://www.cypress.io/blog/2020/06/18/extending-the-cypress-config-file/)
   blog post and
   [@bahmutov/cypress-extends](https://github.com/bahmutov/cypress-extends)
   package.

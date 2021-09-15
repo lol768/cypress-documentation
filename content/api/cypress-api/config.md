@@ -60,7 +60,7 @@ Set multiple configuration options with an object literal.
 
 ### No Arguments
 
-#### Get all configuration options from [configuration](/guides/references/configuration) file (`cypress.json` by default)
+#### Get all configuration options from [configuration](/guides/references/configuration) file
 
 ```json
 {
@@ -78,7 +78,7 @@ Cypress.config() // => {defaultCommandTimeout: 10000, pageLoadTimeout: 30000, ..
 
 ### Name
 
-#### Return a single configuration option from [configuration](/guides/references/configuration) file (`cypress.json` by default)
+#### Return a single configuration option from [configuration](/guides/references/configuration) file
 
 ```json
 {

@@ -49,7 +49,7 @@ For example, if you have the following directory structure:
 
 You would specify the path to your custom reporter in either of the ways below.
 
-#### Config File
+#### Configuration file
 
 ```json
 {
@@ -67,7 +67,7 @@ cypress run --reporter reporters/custom.js
 
 When using custom reporters via npm, specify the package name.
 
-#### Config file
+#### Configuration file
 
 ```json
 {
@@ -94,7 +94,7 @@ which options are supported.
 The below configuration will output the JUnit report to `STDOUT` and save it
 into an XML file.
 
-#### Config file
+#### Configuration file
 
 ```json
 {
@@ -125,7 +125,7 @@ party tool. For example, for the
 [Mochawesome](https://github.com/adamgruber/mochawesome) reporter, you can use
 the [mochawesome-merge](https://github.com/antontelesh/mochawesome-merge) tool.
 
-#### Config file
+#### Configuration file
 
 ```json
 {
@@ -180,11 +180,10 @@ We need to install additional dependencies:
 npm install --save-dev cypress-multi-reporters mocha-junit-reporter
 ```
 
-Specify your reporter and reporterOptions in your configuration file
-(`cypress.json` by default) or via the
+Specify your reporter and reporterOptions in your configuration file or via the
 [command line](/guides/guides/command-line).
 
-#### Config file
+#### Configuration file
 
 ```json
 {
@@ -263,7 +262,7 @@ We need to configure the reporter in your
 [configuration file](/guides/references/configuration) to skip the HTML report
 generation and save each individual JSON file in the `cypress/results` folder.
 
-#### Config file
+#### Configuration file
 
 ```json
 {

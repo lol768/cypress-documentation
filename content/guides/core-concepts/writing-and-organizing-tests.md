@@ -85,8 +85,7 @@ Cypress will create a
 [`videosFolder`](/guides/references/configuration#Videos) to store the
 screenshots and videos taken during the testing of your application. Many users
 will opt to add these folders to their `.gitignore` file. Additionally, if you
-are storing sensitive environment variables in your configuration file
-(`cypress.json` by default) or
+are storing sensitive environment variables in your configuration file or
 [`cypress.env.json`](/guides/guides/environment-variables#Option-2-cypress-env-json),
 these should also be ignored when you check into source control.
 
@@ -869,7 +868,7 @@ behavior.
 
 #### Files
 
-- [Configuration file (`cypress.json`) by default](/guides/references/configuration)
+- [Configuration file](/guides/references/configuration)
 - [cypress.env.json](/guides/guides/environment-variables)
 
 #### Folders
